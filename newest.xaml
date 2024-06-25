@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="form_to_CV.newest">
+
+    <StackLayout Padding="20" Spacing="15">
+        <Label Text="Curriculum Vitae"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Frame BorderColor="Black" CornerRadius="10" Padding="10" BackgroundColor="LightGray">
+            <StackLayout Spacing="10">
+                <Label x:Name="NameLabel"
+                       FontSize="18" 
+                       TextColor="Black" />
+
+                <Label x:Name="EmailLabel"
+                       FontSize="18"
+                       TextColor="Black" />
+
+                <Label x:Name="AgeLabel"
+                       FontSize="18"
+                       TextColor="Black" />
+
+                <Label x:Name="AddressLabel"
+                       FontSize="18"
+                       TextColor="Black" />
+
+                <Label x:Name="PhoneLabel"
+                       FontSize="18"
+                       TextColor="Black" />
+
+                <Label x:Name="CareerLabel"
+                       FontSize="18"
+                       TextColor="Black" />
+
+                <Label x:Name="educacion"
+                       FontSize="18"
+                       TextColor="Black" />
+                
+                <Label x:Name="experiencias"
+                       FontSize="18"
+                       TextColor="Black" />
+            </StackLayout>
+        </Frame>
+    </StackLayout>
+</ContentPage>
